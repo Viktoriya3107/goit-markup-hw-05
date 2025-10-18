@@ -508,17 +508,9 @@ border-top: none;
     fill: #f4f4fd;}
 
 
-.footer-container{
-   align-items: baseline;
-    display: flex;
-        gap: 24px;
-        width: 453px
-}
+
 .footer-form {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 16px;
+   margin-left: auto;
 }
 .footer-bnb {
     font-weight: 500;
@@ -533,7 +525,7 @@ border-top: none;
     display: flex;
     align-items: center;
     gap: 24px; 
-    flex-wrap: wrap;
+   
 }
 .form-label {
     display: flex;
