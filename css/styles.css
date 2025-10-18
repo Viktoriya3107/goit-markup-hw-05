@@ -509,18 +509,11 @@ border-top: none;
 
 
 .footer-container{
-display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    gap: 40px;
-    max-width: 1200px;
-    margin: 0 auto;
+   align-items: baseline;
     
 }
 .footer-form {
     display: flex;
-    flex-direction: row;
     align-items: center;
     gap: 24px;
 }
@@ -548,12 +541,9 @@ display: flex;
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 4px;
     background-color: transparent;
-    color: #ffffff;
-    font-size: 12px;
+    border: 1px solid #ffffff;
     line-height: 2;
     letter-spacing: 0.04em;
-    padding-left: 16px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -585,7 +575,10 @@ display: flex;
     background-color: #404bbf;
 }
 .form-icon {
-    fill: #ffffff;}
+    margin-left: 16px;
+    display: inline-block;
+    vertical-align: middle;}
+    
 .backdrop{
    position: fixed;
    top: 0;
@@ -703,7 +696,7 @@ display: block;
 .modal-form-icon{
     position: absolute;
         top: 50%;
-        left: 16px;
+       margin-left: 16px;
         transform: translateY(-50%);
         stroke: #111111;
             transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -760,8 +753,8 @@ display: block;
 border-radius: 2px;
     background-color: transparent;
     
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-border-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 input[type='checkbox']:checked+.agreement-wrapper>.agreement-checkbox {
@@ -777,7 +770,7 @@ input[type='checkbox']:checked+.agreement-wrapper>.agreement-checkbox {
     text-decoration-line: underline;
     text-decoration-skip-ink: none;
     color: #4d5ae5;
-    line-height: 1/33;}
+    line-height: 1.33;}
 
     .btn-accent{
         display: block;
