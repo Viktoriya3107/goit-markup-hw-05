@@ -725,6 +725,9 @@ border-top: none;
     fill: #4D5AE5;
     stroke: #4d5ae5;
      }
+     .modal-form-textarea {
+        margin-bottom: 16px;
+     }
             
      .modal-form-message {
      width: 100%;
@@ -735,7 +738,6 @@ border-top: none;
     letter-spacing: 0.04em;
     color: rgba(46, 47, 66, 0.4);
     background-color: transparent;
-    margin-bottom: 16px;
     border-radius: 4px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     resize: none;
