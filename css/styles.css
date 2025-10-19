@@ -735,6 +735,7 @@ border-top: none;
     letter-spacing: 0.04em;
     color: rgba(46, 47, 66, 0.4);
     background-color: transparent;
+    margin-bottom: 16px;
     border-radius: 4px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     resize: none;
